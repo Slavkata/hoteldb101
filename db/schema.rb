@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 1) do
 
   create_table "Clients", id: :integer, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.string "Name", limit: 100, null: false
@@ -45,7 +45,7 @@ ActiveRecord::Schema.define(version: 0) do
     t.string "Category", limit: 50, null: false
   end
 
-  create_table "Prices", id: :integer, default: nil, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
+  create_table "Prices", id: :integer, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.float "Price", limit: 24
     t.integer "Room_id", null: false
   end

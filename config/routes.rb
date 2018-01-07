@@ -1,59 +1,59 @@
 Rails.application.routes.draw do
   get 'hotels_metadata/index'
 
-  get 'hotels_metadata/create'
+  post 'hotels_metadata/create'
 
-  get 'hotels_metadata/delete'
+  delete 'hotels_metadata/delete'
 
-  get 'hotels_metadata/update'
+  put 'hotels_metadata/update'
 
   get 'special_events/index'
 
-  get 'special_events/create'
+  post 'special_events/create'
 
-  get 'special_events/delete'
+  delete 'special_events/delete'
 
-  get 'special_events/update'
+  put 'special_events/update'
 
   get 'promotions/index'
 
-  get 'promotions/create'
+  post 'promotions/create'
 
-  get 'promotions/delete'
+  delete 'promotions/delete'
 
-  get 'promotions/update'
+  put 'promotions/update'
 
   get 'coupons/index'
 
-  get 'coupons/create'
+  post 'coupons/create'
 
-  get 'coupons/delete'
+  delete 'coupons/delete'
 
-  get 'coupons/update'
+  put 'coupons/update'
 
   get 'prices/index'
 
-  get 'prices/create'
+  post 'prices/create'
 
-  get 'prices/delete'
+  delete 'prices/delete'
 
-  get 'prices/update'
+  put 'prices/update'
 
   get 'rooms/index'
 
-  get 'rooms/create'
+  post 'rooms/create'
 
-  get 'rooms/delete'
+  delete 'rooms/delete'
 
-  get 'rooms/update'
+  put 'rooms/update'
 
   get 'clients/index'
 
-  get 'clients/create'
+  post 'clients/create'
 
-  get 'clients/delete'
+  delete 'clients/delete'
 
-  get 'clients/update'
+  put 'clients/update'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
