@@ -1,0 +1,2 @@
+module HotelsMetadataHelper
+end
